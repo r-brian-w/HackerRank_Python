@@ -1,0 +1,28 @@
+#My Code
+# Not Working
+
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    results = []
+    for x in [n]:
+       for y in [n]:
+            for z in [n]:
+                n >= 3
+                x + y + z != n
+                results.append([x, y, z])
+    
+    print(results)
+    
+#Thanks gkeswani92 for code
+# Thanks y2zrozfe for code
+
+if __name__ == '__main__':
+    x, y, z, n = (int(input()) for _ in range(4))
+    print ([[a,b,c] 
+                for a in range(0, x+1) 
+                for b in range(0, y+1) 
+                for c in range(0, z+1) 
+            if a + b + c != n ])
