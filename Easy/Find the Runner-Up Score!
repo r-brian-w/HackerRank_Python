@@ -1,0 +1,19 @@
+#Advance Code
+#Thanks qingchen for code
+#using sorted and set
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    print (sorted(set(arr))[-2])
+
+#Thanks touihri_rania for code
+# cast to list and use max
+
+ n = int(input())
+    arr = list(map(int, input().split()))
+    print(max([x for x in arr if x!=max(arr)]))
+
+#My code
+#Empty
+#Still learning
